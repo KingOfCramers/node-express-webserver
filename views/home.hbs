@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+    {{> header}}
+    <p>{{screamIt welcomeMessage}}</p> {{!-- The scream it helper function accepts a single argument: welcomeMessage --}}
+</body>
+{{> footer}}{{!-- To place partials, precede with a > and a space, followed by the partial name --}}
+</html>
